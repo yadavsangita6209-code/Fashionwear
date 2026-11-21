@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact FashionWear – Customer Enquiries</title>
+  <meta name="description" content="Get in touch with FashionWear for sizing help, product details, or customer support.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="logo">FASHIONWEAR</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1 class="page-title">Contact Us</h1>
+    <p class="subtitle">Have a question about sizing or fabrics? Send us a message below.</p>
+
+    <form id="contactForm" class="contact-form">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" placeholder="Enter your name" required>
+
+      <label for="email">Email Address</label>
+      <input type="email" id="email" placeholder="Enter your email" required>
+
+      <label for="message">Message</label>
+      <textarea id="message" rows="4" placeholder="How can we help?" required></textarea>
+
+      <button type="submit" class="btn-primary">Send Message</button>
+      <p id="formMessage" class="feedback-msg"></p>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 FashionWear Prototype. Created for MGT4017 Digital Business.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
